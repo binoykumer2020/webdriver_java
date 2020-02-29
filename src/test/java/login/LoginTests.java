@@ -16,6 +16,7 @@ public class LoginTests extends BaseTests {
        loginPage.setUsername("tomsmith");
        loginPage.setPassword("SuperSecretPassword!");
        loginPage.clickLoginButton();
+        System.out.println("Successfully logged in");
 
 
       // SecureAreaPage secureAreaPage = loginPage.clickLoginButton();
